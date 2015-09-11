@@ -13,7 +13,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
@@ -24,6 +24,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".nominate"
+            android:label="@string/title_activity_nominate" >
+        </activity>
+        <activity
+            android:name=".vote"
+            android:label="@string/title_activity_vote" >
+        </activity>
+        <activity
+            android:name=".Nomination"
+            android:label="@string/title_activity_nomination" >
         </activity>
     </application>
 
